@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+
+  "name": "free-proxy-airport-cf",
+
+  "main": "worker.js",
+
+  "compatibility_date": "2026-10-05",
+
+  "workers_dev": true,
+
+  "kv_namespaces": [
+    {
+      "binding": "SUBSCRIPTIONS",
+
+      "id": "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+    }
+  ],
+
+  "triggers": {
+    "crons": [
+      "*/30 * * * *"
+    ]
+  }
+}
