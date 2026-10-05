@@ -1,6 +1,6 @@
 Cloudflare Worker 高可用订阅透传与加速服务
 
-一个轻量、高效的 Cloudflare Worker 订阅代理与透传转换服务。支持 1:1 原汁原味透传 Clash (YAML) 完整配置与通用 Base64 订阅，具备多 CDN 容灾加速、自定义访问后缀（Token）防扒保护以及动态 URL 代理转换功能。
+一个轻量、高效的 Cloudflare Worker 订阅代理与透传转换服务。支持 1:1 原汁原味透传 Clash (YAML) 完整配置与通用 Base64 订阅，具备多 CDN 容灾加速、自定义访问后缀（Token）防扒保护以及动态 URL 代理转换功能。机场级体验的 Clash Verge / Mihomo 免费节点订阅系统。 每 30 分钟自动聚合公开免费节点源，执行真实延迟测试，剔除超时和无效节点，并按健康评分生成自动分组。
 
 🌟 核心特性
 
@@ -52,7 +52,7 @@ CLASH_URL
 
 否
 
-https://sunmiao4458.github.io/free-proxy-airport/clash.yaml
+https://sunmiaoxxx.github.io/free-proxy-airport/clash.yaml
 
 默认 Clash YAML 订阅源地址
 
@@ -60,7 +60,7 @@ BASE64_URL
 
 否
 
-https://sunmiao4458.github.io/free-proxy-airport/sub/sub_merge.txt
+https://sunmiaoxxx.github.io/free-proxy-airport/sub/sub_merge.txt
 
 默认 Base64 订阅源地址
 
